@@ -238,8 +238,9 @@ a{
 
 .red{
 	background-color: #EA1F2D;
-	height: 250px;
+	height: 300px;
 	width: 100%;
+	overflow-y: hidden;
 }</style></head><body>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -266,7 +267,12 @@ a{
 	</div>
 <!--End of "nav" div-->
 </div>
-
+<div class="fullscreen-bg">
+  <video loop muted autoplay poster="http://ui.specbee.com/sample/videoframe.jpg" class="fullscreen-bg__video">
+    <source src="http://ui.specbee.com/sample/bird.mp4" type="video/mp4"> 
+    <!-- add .ogv and .webm to cover all compatible devices  -->
+  </video>
+</div>
 <div class="hero">
 	<div class="hero-nav">
 		<i class="fa fa-arrow-left"></i>
